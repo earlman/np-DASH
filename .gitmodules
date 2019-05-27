@@ -1,0 +1,3 @@
+[submodule "modules/mmm-wallpaper-np-dash"]
+	path = modules/mmm-wallpaper-np-dash
+	url = https://github.com/earlman/mmm-wallpaper-np-dash
