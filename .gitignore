@@ -59,9 +59,9 @@ Temporary Items
 
 # Various Magic Mirror ignoramuses and anti-ignoramuses.
 
-# # Don't ignore the node_helper core module.
-# !/modules/node_helper
-# !/modules/node_helper/**
+# Don't ignore the node_helper core module.
+!/modules/node_modules/
+!/modules/node_modules/
 
 # # Ignore all modules except the default modules.
 # /modules/**
