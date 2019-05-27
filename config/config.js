@@ -26,6 +26,13 @@ var config = {
 	units: "metric",
 
 	modules: [
+        {
+            module: 'MMM-ModuleScheduler',
+            config: {
+                // SHOW ALL MODULES AT 06:00 AND HIDE AT 22:00 EVERY DAY
+                global_schedule: {from: '0 6 * * *', to: '0 10 * * *' },
+            }
+        },
 		{
 			module: "alert",
 		},
