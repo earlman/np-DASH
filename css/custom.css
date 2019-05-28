@@ -9,6 +9,116 @@
  * Changes to this files will be ignored by GIT. *
  *****************************************************/
 
- body {
- 	
- }
+:root {
+    --text-xs: .667rem;
+    --text-sm: 1rem;
+    --text-md: 1.5rem;
+    --text-lg: 2.25rem;
+    --text-xl: 3.375rem;
+    --text-xxl: 5.063rem;
+    
+}
+
+.module-header {
+    text-transform: none;
+    font-size: var(--text-xs);
+}
+
+/* making "UPPER THIRD" a grid */
+
+.upper.third .container{
+    /* I think some javascript is adding "display: block" as inline css and I can't figure out where it's coming from, hence the !important */
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2%;
+}
+
+
+/*=============================================
+=            Clock Module                     =
+=============================================*/
+.clock {
+    height: 300px;
+}
+
+.time {
+    font-size: 110px;
+    line-height: 1.6;
+}
+
+.date {
+    font-size: var(--text-sm);
+}
+
+/*=====  End of Clock Module           ======*/
+
+
+/*=============================================
+=            Todoist Modules                  =
+=============================================*/
+
+
+.MMM-Todoist-DailyHighlight {
+    grid-column: 1/span 2;
+}
+.MMM-Todoist-DailyHighlight-Tomorrow {
+    grid-column: 1/span 2;
+}
+.MMM-Todoist-Maintenance {
+    grid-column: 3;
+}
+
+.MMM-Todoist-DailyHighlight .title{
+    font-size: var(--text-lg);
+    line-height: 1.6;
+}
+
+.MMM-Todoist-DailyHighlight-Tomorrow .title{
+    font-size: var(--text-lg);
+    line-height: 1.6;
+
+}
+
+.MMM-Todoist-Maintenance {
+    /* font-size: var(--text-xl); */
+}
+
+.dueDate {
+    display: none;
+}
+
+/*=====  End of Todoist Modules        ======*/
+
+
+
+/*=============================================
+=            MMM-Wallpaper Config             =
+=============================================*/
+
+body {
+    background: rgba(3, 12, 29, 0.7);
+}
+
+.fullscreen {
+    height: 100%;
+}
+
+.fullscreen div {
+    height: 100%;
+}
+
+.fullscreen img {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.fullscreen .title {
+    position: absolute;
+    bottom: 0;
+    right: 4vw;
+    font-size: var(--text-sm);
+    height: auto;
+}
+
+/*=====  End of MMM-Wallpaper Config   ======*/
+
