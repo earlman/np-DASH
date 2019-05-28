@@ -1,6 +1,6 @@
 [submodule "modules/MMM-ModuleScheduler"]
 	path = modules/MMM-ModuleScheduler
-	url = git@github.com:ianperrin/MMM-ModuleScheduler.git
+	url = https://github.com/ianperrin/MMM-ModuleScheduler.git
 [submodule "modules/MMM-Wallpaper-np-dash"]
 	path = modules/MMM-Wallpaper-np-dash
 	url = https://github.com/earlman/MMM-Wallpaper-np-dash.git
