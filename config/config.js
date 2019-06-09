@@ -91,7 +91,6 @@ var config = {
                 showProject: false,
                 displayTasksWithoutDue: false,
                 wrapEvents: true,
-
             }
         },
         {
