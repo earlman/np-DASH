@@ -73,7 +73,6 @@ var config = {
         {
             module: "clock",
             position: "top_left",
-            classes: 'schedule_e',
             config: {
                 showPeriod: false
             }
@@ -82,7 +81,7 @@ var config = {
             module: 'MMM-Todoist-DailyHighlight',
             position: 'upper_third',	// This can be any of the regions. Best results in left or right regions.
             header: `🌞 Today's Highlight`, // This is optional
-            classes: 'schedule_m',
+            classes: 'schedule_ma',
             config: { // See 'Configuration options' for more information.
                 accessToken: '7735360b7a5f2f97c8392318620b9e01a4546e45',
                 maximumEntries: 1,
